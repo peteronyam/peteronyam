@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.tab{
+    position: fixed;
+    background-color: darkgrey;
+    width: 20px;
+    height: 100%;
+    border-right: 2px solid black;
+}
