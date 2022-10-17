@@ -111,16 +111,9 @@
     
 }
 body{
-    /* height:100%;
-    background-size:cover;
-    /* background-image: url(''); */
-    /* background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed; */ */
-    height:100%;
-    background: url('images/bach.avif');
-    background-size:cover;
-    position:relative;
+  
+    background-image: url('images/hhhhhh.jpg');
+    /* /* background-repeat: no-repeat; */
 }
 h1{
     color: white;
