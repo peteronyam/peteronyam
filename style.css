@@ -3,6 +3,7 @@
     /* background-color: darkgray; */
     background-color: hwb(0 0% 98% / 0.575);
     
+    
 }
 
 /* hero background image */
@@ -29,10 +30,10 @@
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+/* #about, #services, #portfolio, #contact {
     margin-top: 4rem;
-    padding-top: 4rem;
-}
+    padding-top: 4rem; */
+/* } */
 #contact {
     padding-bottom: 4rem;
 }
@@ -96,13 +97,11 @@
     
 }
 body{
-        background-color: #000000;
-        font-family: Inter, sans-serif;
-        color: #fff;
-        font-size: 13px;
-        line-height: 20px;
+    background-image: url('images/bach.avif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
-.card-body{
-  background-color: gray;
-  color: white;  
+h1{
+    color: white;
 }
