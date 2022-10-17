@@ -103,6 +103,7 @@
     padding-top: 20px;
     padding-bottom: 16px;
     backdrop-filter: blur(8px);
+    color: white;
 }
 #about{
     font-family: NType82Mono !important;
@@ -110,10 +111,16 @@
     
 }
 body{
-    background-image: url('images/bach.avif');
-    background-repeat: no-repeat;
+    /* height:100%;
+    background-size:cover;
+    /* background-image: url(''); */
+    /* background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */ */
+    height:100%;
+    background: url('images/bach.avif');
+    background-size:cover;
+    position:relative;
 }
 h1{
     color: white;
