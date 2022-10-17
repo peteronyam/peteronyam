@@ -1,6 +1,7 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: darkgray;
+    /* background-color: darkgray; */
+    background-color: hwb(0 0% 98% / 0.575);
     
 }
 
@@ -28,10 +29,10 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+#about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-} */
+}
 #contact {
     padding-bottom: 4rem;
 }
@@ -57,7 +58,7 @@
     color: #008000;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 5px solid colorless;
 }
 
 /* social media icons styling */
@@ -73,6 +74,35 @@
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
     text-align: center;
+    font-size: 20px !important;
+}
+.email{
+    /* background-color: blue; */
+    background-color: hsla(0, 0%, 100%, 0.1);
+    font-family: NType82Mono !important;
+    border-radius: 40px;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    backdrop-filter: blur(8px);
+}
+#about{
+    font-family: NType82Mono !important;
+
+    
+}
+body{
+        background-color: #000000;
+        font-family: Inter, sans-serif;
+        color: #fff;
+        font-size: 13px;
+        line-height: 20px;
+}
+.card-body{
+  background-color: gray;
+  color: white;  
 }
