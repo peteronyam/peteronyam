@@ -112,8 +112,9 @@
 }
 body{
   
-    background-image: url('images/hhhhhh.jpg');
-    /* /* background-repeat: no-repeat; */
+    background-image: url('images/newback.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     color: white;
