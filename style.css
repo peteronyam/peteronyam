@@ -9,7 +9,7 @@
     height:100vh;
     background: url('images/time.jpg') !important;
     background-size:cover;
-    /* position:relative; */
+    position:relative;
 }
 /* text css above hero image*/
 .hero_title {
