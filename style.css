@@ -7,7 +7,7 @@
 /* hero background image */
 .banner {
     height:100vh;
-    background: url('images/time.jpg');
+    background: url('images/time.jpg') !important;
     background-size:cover;
     /* position:relative; */
 }
