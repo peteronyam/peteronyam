@@ -5,7 +5,7 @@
 }
 
 /* hero background image */
-.bgimage {
+.banner {
     height:100vh;
     background: url('images/time.jpg');
     background-size:cover;
